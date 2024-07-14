@@ -1,0 +1,11 @@
+#map {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid #ccc;
+    margin: 2rem auto;
+}
+
+.search {
+    text-align: center;
+    margin: 2rem auto;
+}
