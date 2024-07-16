@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "expres-typescript-curso",
+    "collectionId": "361da778-7b2a-4fd4-87cd-af42b63e600e",
+    "dateExported": "2024-07-16T07:17:11.789Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cb73e4e8-d2ce-453b-850a-5c07b29a5c52",
+            "colId": "361da778-7b2a-4fd4-87cd-af42b63e600e",
+            "containerId": "",
+            "name": "createTodo",
+            "url": "http://localhost:3000/todos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-16T07:15:25.207Z",
+            "modified": "2024-07-16T07:16:14.455Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"text\":\"Nuevo todo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "41d4f3f7-c114-4d92-b196-e81e3d74aab1",
+            "colId": "361da778-7b2a-4fd4-87cd-af42b63e600e",
+            "containerId": "",
+            "name": "getTodos",
+            "url": "http://localhost:3000/todos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-16T07:15:25.208Z",
+            "modified": "2024-07-16T07:16:01.164Z",
+            "headers": []
+        },
+        {
+            "_id": "b561907c-a677-48f3-bd4b-33dd27d107d8",
+            "colId": "361da778-7b2a-4fd4-87cd-af42b63e600e",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:3000/todos/0.9121957085495114",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2024-07-16T07:15:25.209Z",
+            "modified": "2024-07-16T07:16:36.009Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"text\":\"Todo Actualizado\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "dd2eb704-ac10-4291-ada6-c1c4d7380bc2",
+            "colId": "361da778-7b2a-4fd4-87cd-af42b63e600e",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:3000/todos/0.9121957085495114",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-16T07:15:25.210Z",
+            "modified": "2024-07-16T07:16:42.373Z",
+            "headers": []
+        }
+    ],
+    "ref": "2G7BjaiIWCgpqmyaET5MjiNiivvm8H5jSoLT98fXrlsLiXKlhfMkfxKkz9QtMMpUYTdZzEMg76uln_CMjwwOFA"
+}

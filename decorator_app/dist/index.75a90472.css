@@ -1,0 +1,37 @@
+body {
+  height: 60vh;
+}
+
+form {
+  background-color: #7fffd4;
+  border-radius: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20rem;
+  height: fit-content;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+form button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  width: fit-content;
+  margin: 0 auto;
+  padding: .5rem 2rem;
+}
+
+input {
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  padding: .5rem;
+}
+/*# sourceMappingURL=index.75a90472.css.map */
